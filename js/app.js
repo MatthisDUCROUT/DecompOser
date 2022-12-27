@@ -238,7 +238,7 @@ var app = {
       // Recall same method (=> make a loop)
       window.setTimeout(function() {
         app.codeLineLoop(codeLines, index);
-      }, 1000);
+      }, 500);
     } else {
       window.setTimeout(function() {
         app.checkSuccess();
