@@ -210,7 +210,7 @@ var app = {
 
     window.setTimeout(function() {
       app.codeLineLoop(codeLines, 0);
-    }, 2000);
+    }, 500);
   },
   codeLineLoop: function(codeLines, index) {
     // Getting currentLine
@@ -242,7 +242,7 @@ var app = {
     } else {
       window.setTimeout(function() {
         app.checkSuccess();
-      }, 1000);
+      }, 500);
     }
   },
   checkSuccess: function() {
